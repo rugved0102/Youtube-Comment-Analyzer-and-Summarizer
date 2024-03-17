@@ -1,0 +1,92 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:black;
+}
+/* .center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container {
+  width: 20%;
+            margin: 20px;
+            margin-left: 45px;
+             float: left; 
+            box-sizing: border-box;
+            background-color: rgb(248, 239, 239);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px whitesmoke;
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0; /* Set initial opacity to 0 */
+            animation: fadeInContainer 1s ease-in-out forwards; /* Add fade-in animation to the containers */
+            z-index: 2;
+}
+h2{
+  margin: 5px;
+  color:black;
+
+}
+p{
+  margin: 5px;
+  color:black;
+  text-decoration: solid;
+}
+h1{
+  color: white;
+}
+.nav{
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 0;
+  display: flex;
+  background-color: #000;
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: fixed;
+  top: 0px;
+  z-index:-1;
+} 
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInContainer {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  
+}
+
+
+
+@media (max-width: 768px) {
+  .container {
+      width: 100%;
+  }
+}

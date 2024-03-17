@@ -1,0 +1,13 @@
+course positive
+book negative
+amazing neutral
+despite positive 
+usefull positive
+liability negative
+great positive
+excellent positive
+love neutral
+like neutral
+lol negative
+trouble positive
+act positive
